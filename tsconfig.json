@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "module": "NodeNext", // Modül sistemi olarak NodeNext kullanılıyor (ESM ve CommonJS desteği sağlar).
+        "moduleResolution": "NodeNext", // Modül çözümleme yöntemi olarak Node kullanılıyor.
+        "baseUrl": "src", // Projedeki temel dizin "src" olarak belirleniyor.
+        "outDir": "dist", // Derlenen JavaScript dosyaları "dist" klasörüne çıkacak.
+        "sourceMap": true, // Hata ayıklamayı kolaylaştırmak için source map dosyaları oluşturulacak.
+        "noImplicitAny": true // Değişkenlerin türü belirtilmezse hata verecek (tip güvenliğini artırır).
+    },
+    "include": [
+        "src/**/*"
+    ] // "src" klasöründeki tüm TypeScript dosyaları derleme kapsamına alınır.
+}
